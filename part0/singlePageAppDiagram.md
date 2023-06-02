@@ -26,5 +26,4 @@ sequenceDiagram
     deactivate server
 
     Note right of browser: The browser executes the callback function that renders the notes
-Create a similar diagram depicting the situation where the user creates a new note on the page
 ```
