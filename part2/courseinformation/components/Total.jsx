@@ -1,6 +1,6 @@
 
 const Total = ({parts}) => {
-  const total = parts.map(part => part.exercises).reduce((sum, num) => sum + num, 0)
+  const total = parts.reduce((sum, part) => sum + part.exercises, 0)
   
   return (
     <div>
